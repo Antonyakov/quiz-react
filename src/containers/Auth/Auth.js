@@ -45,7 +45,7 @@ export default class Auth extends Component {
     }
     try {
       const response = await axios.post('https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyBdScL_JznhoHQRyxNjm0065tknlQIYaCY', authData)
-
+      console.log(response.data)
       console.log(response.data)
     } catch (e) {
       console.log(e)
