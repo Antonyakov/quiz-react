@@ -64,6 +64,8 @@ export default class Auth extends Component {
       console.log(response.data)
     } catch (e) {
       console.log(e)
+      console.log(e)
+
     }
   }
 
